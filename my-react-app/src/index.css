@@ -1,28 +1,7 @@
-.card{
-  border: 1px solid rgb(137, 137, 137);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.098);
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-  max-width: 250px;
-  display: inline-block;
-}
-
-.card .card-image{
-  max-width: 60%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.card .card-title{
+.student{
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  color: rgb(84, 84, 84);
-}
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid black;
 
-.card .card-text{
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(110, 110, 110);
 }
