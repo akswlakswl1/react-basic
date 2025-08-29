@@ -8,7 +8,7 @@ const ProductAll = () => {
   const [query, setQuery] = useSearchParams();
   const getProducts = async () => {
     let searchQuery = (query.get('q') || "").trim();
-    let url = "https://my-json-server.typicode.com/akswlakswl1/react-basic/shopping-mall/products";
+    let url = "https://my-json-server.typicode.com/akswlakswl1/react-basic/products";
 
     if (searchQuery) {
       url += `?title_like=${encodeURIComponent(searchQuery)}`;
